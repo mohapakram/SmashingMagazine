@@ -2,7 +2,7 @@
 
 > A heat map of Smashing Magazine website.
 
-![](/screenshot.PNG)
+![](/screenshot.png)
 
 ## Live version
 
