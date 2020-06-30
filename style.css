@@ -23,8 +23,6 @@
 
 body {
   font-family: "Cairo", sans-serif;
-  /* remove */
-  margin-bottom: 200vh;
 }
 
 .uppercase {
@@ -231,6 +229,10 @@ nav input {
   align-content: center;
 }
 
+#person-of-the-week a {
+  color: blue;
+}
+
 #person-of-the-week > div {
   width: 500px;
   height: 200px;
@@ -240,4 +242,138 @@ nav input {
 
 #person-of-the-week h2 {
   margin-bottom: 30px;
+}
+
+#links {
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin: 0 50px;
+}
+
+#links article {
+  margin: 10px;
+}
+
+article h6 {
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+article h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#design-systems article {
+  padding: 50px;
+}
+
+button {
+  padding: 20px 50px;
+  margin: 25px 0;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  border-radius: 11px;
+  border: none;
+  outline: none;
+}
+
+#tutorials {
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 50px;
+  gap: 50px;
+}
+
+#tutorials article {
+  padding: 35px;
+  border-radius: 11px;
+}
+#tutorials article h6 {
+  font-size: 1.2em;
+}
+
+#tutorials article a {
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+#subscribe {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 33.33%;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+#subscribe img {
+  width: 100%;
+}
+
+#subscribe input {
+  margin: 20px 0;
+  padding: 12.5px 50px;
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+  font-size: 1.2em;
+  font-family: "Cairo", sans-serif;
+  vertical-align: center;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+}
+
+#subscribe button {
+  display: inline;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 20px 50px;
+  text-transform: capitalize;
+  font-size: 1.2em;
+  margin-left: -4px;
+  vertical-align: center;
+
+  cursor: pointer;
+}
+
+footer strong {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+footer ul {
+  margin: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.5em;
+  list-style-image: url("https://d33wubrfki0l68.cloudfront.net/5242cdc0f8a0d710a02b6dcdd43ef5002bf5ae89/77199/images/bullet.svg");
+}
+
+footer ul li {
+  display: list-item;
+  list-style-type: disc;
+  margin: 10px;
+}
+
+.footer-text {
+  font-size: 1em;
+  font-style: italic;
+  width: 500px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#footer-list {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  font-size: medium;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#footer-list li {
+  list-style: none;
 }
