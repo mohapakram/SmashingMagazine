@@ -12,6 +12,10 @@
   --gray-3: #a9a9a9;
 }
 
+.g-image {
+  filter: grayscale(100%);
+}
+
 .g-1 {
   background-color: var(--gray-1);
 }
@@ -90,6 +94,7 @@ footer ul {
   justify-content: center;
   font-size: 1.5em;
   list-style-image: url("https://d33wubrfki0l68.cloudfront.net/5242cdc0f8a0d710a02b6dcdd43ef5002bf5ae89/77199/images/bullet.svg");
+  filter: grayscale(100%);
 }
 
 footer ul li {
