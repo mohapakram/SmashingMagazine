@@ -173,7 +173,7 @@ nav input {
   padding: 20px 20px 200px 20px;
 }
 
-.article-grid article time {
+.article-grid article .time {
   margin: 10px 0;
 }
 
