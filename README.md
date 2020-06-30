@@ -6,7 +6,7 @@
 
 ## Live version
 
-[Live Demo here](https://rawcdn.githack.com/mohapakram/New-York-Times-article-page-clone/395344766da26a064c300333744dce36a94557db/index.html)
+[Live Demo here](https://rawcdn.githack.com/mohapakram/SmashingMagazine/f8ef79c9eb42e97efed5c5a9dc801183b76a4597/index.html)
 
 ## Built With
 
